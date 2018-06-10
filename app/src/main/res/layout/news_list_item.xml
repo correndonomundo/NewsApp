@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/PaddingOrMargin1"
+    android:paddingLeft="@dimen/PaddingOrMargin1"
+    android:paddingRight="@dimen/PaddingOrMargin1"
+    android:paddingStart="@dimen/PaddingOrMargin1">
+
+       <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/PaddingOrMargin1"
+        android:layout_marginStart="@dimen/PaddingOrMargin1"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/news_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/text2"
+        android:textSize="@dimen/text_size_category"
+        tools:text="news category placeholder" />
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/text3"
+        android:textSize="@dimen/text_size_title"
+        tools:text="news title placeholder" />
+
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/PaddingOrMargin1"
+        android:layout_marginStart="@dimen/PaddingOrMargin1"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="@color/text3"
+        android:textSize="@dimen/text_size_date"
+        tools:text="date placeholder" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="@color/text3"
+        android:textSize="@dimen/text_size_date"
+        tools:text="time placeholder" />
+
+</LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+

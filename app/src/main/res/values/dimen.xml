@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_category">12sp</dimen>
+    <dimen name="text_size_date">10sp</dimen>
+
+
+    <dimen name="PaddingOrMargin1">16dp</dimen>
+
+</resources>
