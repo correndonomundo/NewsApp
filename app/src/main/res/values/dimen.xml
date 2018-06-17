@@ -7,5 +7,6 @@
 
 
     <dimen name="PaddingOrMargin1">16dp</dimen>
+    <dimen name="PaddingOrMargin2">8dp</dimen>
 
 </resources>
